@@ -63,9 +63,10 @@ if __name__ == "__main__":
     plt.scatter(df["xs"], df["Standardised Fee ($)"], alpha=0.4, c=df["colour"])
 
     plt.savefig(
-        'figures/physio_fees_boxplot_grid.png',
+        "figures/physio_fees_boxplot_grid.png",
         dpi=300,
-        format='png',
-        facecolor='White',
+        format="png",
+        facecolor="White",
+        bbox_inches="tight",
         transparent=False,
     )
