@@ -61,3 +61,11 @@ if __name__ == "__main__":
     plt.suptitle("")
     plt.yticks(np.arange(0, 250, 25))
     plt.scatter(df["xs"], df["Standardised Fee ($)"], alpha=0.4, c=df["colour"])
+
+    plt.savefig(
+        'figures/physio_fees_boxplot_grid.png',
+        dpi=300,
+        format='png',
+        facecolor='White',
+        transparent=False,
+    )
