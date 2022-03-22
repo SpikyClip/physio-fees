@@ -1,4 +1,4 @@
-# Boxplot of local physiotherapist Fees
+# Boxplot of Local Physiotherapist Fees
 
 A simple script used to generate a boxplot comparing the fees of nearby
 physiotherapists in order to inform pricing decisions. Pricing was standardised
